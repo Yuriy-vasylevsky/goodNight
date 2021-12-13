@@ -2,13 +2,14 @@ $bg: #f4c042;
 $c: #765d20;
 $t: 5s;
 
-body {
+.body-day {
   text-align: center;
   background: $bg;
+  height: 100vh;
 }
 
 svg {
-  width: 400px;
+  width: 320px;
   height: 300px;
 }
 
