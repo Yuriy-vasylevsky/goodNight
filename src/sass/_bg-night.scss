@@ -1,7 +1,7 @@
 body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   height: 100vh;
-  overflow: hidden;
+  // overflow: hidden;
   display: flex;
   font-family: 'Anton', sans-serif;
   justify-content: center;
@@ -14,8 +14,9 @@ $shooting-time: 3000ms;
   position: relative;
   width: 100%;
   height: 100%;
-  transform: rotateZ(45deg);
+  transform: rotateZ(60deg);
   z-index: -1;
+  // overflow: hidden;
   // animation: sky 200000ms linear infinite;
 }
 
