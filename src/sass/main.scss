@@ -65,7 +65,7 @@ h3 {
   background-color: rgba(229, 207, 233, 0.856);
 }
 
-.opasiti-div2 {
+.opasiti-div {
   border: #ff0081 solid 2px;
   border-radius: 30px;
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
@@ -75,6 +75,9 @@ h3 {
 }
 
 .opasiti-div2 {
+  position: relative;
+  top: -350px;
+  left: -23%;
   border: #ff0081 solid 2px;
   border-radius: 30px;
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
