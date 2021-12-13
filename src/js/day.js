@@ -30,3 +30,13 @@ btnMore.addEventListener('click', openText);
 function openText() {
   p.classList.toggle('block');
 }
+
+const btnMore2 = document.querySelector('.button2');
+console.log(btnMore2);
+const p2 = document.querySelector('.block2');
+
+btnMore2.addEventListener('click', openText2);
+function openText2() {
+  console.log(`Клик`);
+  p2.classList.toggle('block2');
+}
